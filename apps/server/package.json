@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "private": "true",
+  "scripts": {
+    "build": "bun build --compile --minify-whitespace --minify-syntax ./src/main.ts --outfile server",
+    "dev": "bun run --watch src/main.ts"
+  },
+  "dependencies": {
+    "elysia": "^1.1.17"
+  },
+  "devDependencies": {
+    "bun-types": "^1.1.29"
+  },
+  "main": "src/main.ts",
+  "types": "src/main.ts"
+}

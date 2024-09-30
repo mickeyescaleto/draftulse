@@ -1,0 +1,39 @@
+{
+  "name": "draftulse",
+  "version": "1.0.0",
+  "description": "A modern web-based student project management platform",
+  "private": "true",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev"
+  },
+  "devDependencies": {
+    "turbo": "^2.1.3"
+  },
+  "author": {
+    "name": "mickeyescaleto",
+    "email": "mickeyescaleto@gmail.com",
+    "url": "https://github.com/mickeyescaleto"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mickeyescaleto/draftulse"
+  },
+  "bugs": "https://github.com/mickeyescaleto/draftulse/issues",
+  "homepage": "https://github.com/mickeyescaleto/draftulse",
+  "keywords": [
+    "web",
+    "management",
+    "platform",
+    "fullstack",
+    "typescript"
+  ],
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "packageManager": "bun@1.1.27",
+  "engines": {
+    "node": ">=18"
+  }
+}
