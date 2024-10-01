@@ -1,0 +1,18 @@
+{
+  "extends": "@draftulse/typescript-config/base.json",
+  "include": ["src"],
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "types": ["bun-types"],
+    "target": "ES2021",
+    "module": "ES2022",
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "baseUrl": "./",
+    "paths": {
+      "@server": ["src/main.ts"],
+      "@server/*": ["src/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
