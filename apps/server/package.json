@@ -8,6 +8,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@draftulse/database": "workspace:*",
     "@elysiajs/cors": "^1.1.1",
     "@elysiajs/swagger": "^1.1.3",
     "elysia": "^1.1.17"

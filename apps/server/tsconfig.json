@@ -2,7 +2,7 @@
   "extends": "@draftulse/typescript-config/base.json",
   "include": ["src"],
   "compilerOptions": {
-    "moduleResolution": "node",
+    "moduleResolution": "Bundler",
     "types": ["bun-types"],
     "target": "ES2021",
     "module": "ES2022",
