@@ -6,6 +6,7 @@
     ".": "./src/prisma.ts"
   },
   "scripts": {
+    "lint": "eslint .",
     "db:generate": "prisma generate",
     "db:push": "prisma db push --skip-generate",
     "studio": "prisma studio"
