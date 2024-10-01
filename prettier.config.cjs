@@ -5,5 +5,6 @@ module.exports = {
   jsxSingleQuote: false,
   useTabs: false,
   tabWidth: 2,
-  trailingComma: "none",
+  trailingComma: 'none',
+  plugins: ['prettier-plugin-tailwindcss']
 };
